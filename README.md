@@ -8,13 +8,13 @@
 ## Project Results:
 
 ### The Horizontal Bar Chart displays each subject's top ten bacterial species in their navels.
-![](images/bar_plot.PNG)
+![](images/bar_plot.png)
 
 ### The Bubble Chart displays bacteria culture test result for each sample.
-![](images/bubble_plot.PNG)
+![](images/bubble_plot.png)
 
 ### The Gauge Chart displays the count for each candidate's belly button wash, per week.
-![](images/gauge_plot.PNG)
+![](images/gauge_plot.png)
 
 ### Please visit the link below to access the interactive dashboard created to help Roza.
 https://abidor13.github.io/Belly-Button-Biodiversity/
