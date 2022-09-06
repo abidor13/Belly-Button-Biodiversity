@@ -8,8 +8,11 @@
   <title>Bellybutton Biodiversity</title>
   <link
     rel="stylesheet" 
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+
+
   />
+  <link rel="stylesheet" href="style.css">
   
 </head>
 
@@ -19,17 +22,16 @@
     <div class="row">
       <div class="col-md-12 jumbotron text-center", style="background-image: url('https://static2.reviewthisimages.com/wordpress/wp-content/uploads/2019/07/Bacteria.jpg');">
         <h1 style="color: white">Belly Button Biodiversity Dashboard</h1>
-        <p style="color: rgb(237, 237, 187)">Use the interactive charts below to explore the dataset</p>
+        <p style="color: rgb(240, 240, 6)">Use the interactive charts below to explore the dataset</p>
       </div>  
     </div>
     <div class="row">
       <div class="col-md-12">
-        <h2 style="color: purple; font-size:35px">Project Overview</h2>
-        <p style="color: indigo; font-size:25px">This project collected a demographic information of bacteria data from volunteers' belly buttons. Based on this data, 
-          we created an interactive dashboard to vizulize each volunteer's belly button biodiversity. <br><br>
-          <!-- By selecting Test Subject ID number from the dropdown menu, the individual's demographic information table and following three charts will dynamically response. 
-          The horizontal bar chart identifys the subject's top 10 bacterial species in their navel. The gauge chart reveals reveals how often does the subject clean his belly button.
-          The bubble chart displays bacteria culture test result for each sample. -->
+        <h2 style="color: rgb(11, 5, 45); font-size:35px">Project Overview</h2>
+        <p style="color: rgb(30, 24, 94); font-size:25px">This project collected a demographic information of bacteria data from volunteers' belly buttons.<br>
+          Utilizing this data, we created an interactive dashboard to visualize each volunteer's belly button biodiversity. <br>
+          The volunteers who participated in this study can access this website, select their ID number, and see which bacterial species live in their navels. 
+          The charts below help visualize to the participants their test subjects demographic information and what bacterial cultures live in their navels.
           <br></p>
       </div>
     </div>
@@ -38,19 +40,18 @@
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
-          <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
+            <h5 class="panel-title">Demographic Info</h5>
           </div>
-          <div id="sample-metadata" class="panel-body" style="color: blue; background-color: cornsilk"></div>
+          <div id="sample-metadata" class="panel-body" style="color: rgb(72, 72, 165); background-color: rgb(238, 234, 217)"></div>
         </div>
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
-      </div>
+      </div> 
       <div class="col-md-5">
         <div id="gauge"></div>
       </div>

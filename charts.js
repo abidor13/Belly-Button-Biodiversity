@@ -88,7 +88,7 @@ function buildCharts(sample) {
         text: otu_labels.slice(0, 10).reverse(),
         type: "bar",
         orientation: "h",
-          
+                  
       }
       
     ];

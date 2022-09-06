@@ -1,0 +1,14 @@
+body {
+
+    color: #bc1414;
+  }
+ 
+ .tag {
+     font-family: initial; 
+     font-size: 1rem;
+    }  
+
+.jumbotron {
+    background-size: 100% 100%;
+    text-align: justify;
+  }
